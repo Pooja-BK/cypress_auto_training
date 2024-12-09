@@ -1,0 +1,12 @@
+{
+     "login":
+     {
+        "fname" : "Pooja",
+        "lname" : "S Kotian",
+        "username" : "poojaskotian9876",
+        "password" : "poojaskotian9876543210", 
+        "confirmpass" : "poojaskotian9876543210",
+        "email" : "poojaskotian@test.com",
+        "contact" : "987654321012"
+    }
+}
