@@ -6,8 +6,7 @@ class RegPage{
 
     fillFname(value)
     {
-        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]/input[1]')
-        //field.clear()        
+        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]/input[1]')        
         field.type(value)
         return this
     }
@@ -21,16 +20,14 @@ class RegPage{
 
     fillPassword(value) 
     {
-        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[9]/td[3]/input[1]')
-        //field.clear()        
+        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[9]/td[3]/input[1]')      
         field.type(value)
         return this
     }
 
     fillRePass(value) 
     {
-        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[11]/td[3]/input[1]')
-        //field.clear()        
+        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[11]/td[3]/input[1]')        
         field.type(value)
         return this
     }
@@ -45,8 +42,7 @@ class RegPage{
 
     fillMobile(value) 
     {
-        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[20]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/div[3]/input[1]')
-        //field.clear()        
+        const field = cy.xpath('/html[1]/body[1]/center[1]/form[1]/div[1]/table[2]/tbody[1]/tr[20]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/div[3]/input[1]')        
         field.type(value)
         return this
     }
