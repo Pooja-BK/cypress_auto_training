@@ -6,8 +6,7 @@ class RegPage{
 
     fillFname(value)
     {
-        const field = cy.get('input[name="first_name"]')
-        //field.clear()        
+        const field = cy.get('input[name="first_name"]')     
         field.type(value)
         return this
     }
@@ -43,48 +42,42 @@ class RegPage{
      
     fillUsername(value) 
     {
-        const field = cy.get('input[name="user_name"]')
-        //field.clear()       
+        const field = cy.get('input[name="user_name"]')    
         field.type(value)
         return this
     }
 
     fillPassword(value) 
     {
-        const field = cy.get('input[name="user_password"]')
-        //field.clear()        
+        const field = cy.get('input[name="user_password"]')   
         field.type(value)
         return this
     }
 
     fillConfirmPass(value) 
     {
-        const field = cy.get('input[name="confirm_password"]')
-        //field.clear()        
+        const field = cy.get('input[name="confirm_password"]')        
         field.type(value)
         return this
     }
 
     fillEmail(value) 
     {
-        const field = cy.get('input[name="email"]')
-        //field.clear()        
+        const field = cy.get('input[name="email"]')       
         field.type(value)
         return this
     }
 
     fillContact(value) 
     {
-        const field = cy.get('input[name="contact_no"]')
-        //field.clear()        
+        const field = cy.get('input[name="contact_no"]')        
         field.type(value)
         return this
     }
 
     fillAddInfo(value)
     {
-        const field = cy.get('textarea[id="exampleFormControlTextarea1"]')
-        //field.clear()        
+        const field = cy.get('textarea[id="exampleFormControlTextarea1"]')       
         field.type(value)
         return this
     }
