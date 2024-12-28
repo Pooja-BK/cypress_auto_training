@@ -4,7 +4,7 @@ describe('Sample Automation', () => {
     //visit the website
         cy.visit('https://www.flipkart.com/')
         cy.wait(2000)
-    //click login button
+   
         cy.contains('Mobile').click()
         cy.wait(2000)
     //assert heading
@@ -20,7 +20,7 @@ describe('Sample Automation', () => {
         //visit the website
             cy.visit('https://www.flipkart.com/')
             cy.wait(2000)
-        //click login button
+        
             cy.contains('Mobile').click()
         //change page resolution
             cy.viewport(1000,500)
